@@ -19,9 +19,9 @@ function (user){
 
 |       Input      |                           Output                             |
 | -----------------| ------------------------------------------------------------ |
-|      "Blair"     |                    Welcome back, Blair!                      | 
-|      "Joe"       |     Hey Joe! Would you like to renew your subscription?      | 
-|      "Marcus"    |    Hey Marcus! Would you like to renew your subscription?    | 
+|      user.Blair = { isActive: true, username: "BBBrisk"}     |                    Welcome back, BBBrisk!                      | 
+|      user.Joe = { isActive: false, username: "JoeyBoy"}       |     Hey JoeyBoy! Would you like to renew your subscription?      | 
+|      user.Marcus = { isActive: false, username: "MarkeyMark"}    |    Hey MarkeyMark! Would you like to renew your subscription?    | 
 
 <table>
   <tr>
